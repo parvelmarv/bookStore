@@ -89,7 +89,7 @@ Demo for a very simple book store.
   - `GET /customers/:id` - Get specific customer
   - `POST /customers` - Add new customer
 
-  - `Get /orders` - Get all orders and attached customers (might return no customr) 
+  - `Get /orders` - Get all orders and attached customers (might return no empty on customer ID if not a prior/current customer) 
   - `POST /orders` - Create a new order with or without customer ID. 
 
 
