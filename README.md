@@ -1,17 +1,5 @@
 # Bookstore API
 
-## Overview
-
-**Bookstore API** is a full-stack web application for managing a bookstore's inventory, customers, and orders. It includes both a frontend and a backend, designed to provide an intuitive interface for browsing books, managing customer information, and processing book orders.
-
-## Features
-
-- **Book Management**: Add, view, update, and delete books in the inventory with details such as title, author, and release year.
-- **Customer Management**: Register and manage customer information including names, emails, and addresses.
-- **Order Processing**: Create orders for customers or guest users with multiple books per order.
-- **Filtering & Sorting**: Search and filter books by author, title, or release year with customizable sorting options.
-- **Pagination**: Browse through large collections of books efficiently with paginated results.
-
 ## Technologies Used
 
 ### Frontend
