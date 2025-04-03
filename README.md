@@ -1,26 +1,28 @@
 # Bookstore API
+Demo for a very simple book store. 
 
 ## Technologies Used
 
 ### Frontend
 
-- [React](https://reactjs.org/)
-- [Vite](https://vitejs.dev/)
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [React]
+- [Vite]
+- [CSS]
 
 ### Backend
 
-- [Node.js](https://nodejs.org/)
-- [Express](https://expressjs.com/)
-- [MongoDB](https://www.mongodb.com/)
-- [Mongoose](https://mongoosejs.com/)
+- [Node.js]
+- [Express]
+- [MongoDB]
+- [Mongoose]
+- [Dotenv]
 
 ## Installation
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/)
-- [MongoDB](https://www.mongodb.com/) (Atlas or local installation)
+- [Node.js]
+- [MongoDB](Atlas or local installation)
 
 ### Setup
 
@@ -79,19 +81,18 @@
 - The backend API is accessible at `http://localhost:3000`.
 - API endpoints:
   - `GET /books` - Browse books (with filtering, sorting, pagination)
-  - `POST /books` - Add a new book
+  - `POST /books` - Add a new` book
+  - `PUT /books/:id/decrement`- Decrease stock
+  - `DELETE /books/:id` - Remove Book from stock
+
   - `GET /customers` - View customers
-  - `POST /orders` - Create a new order
+  - `GET /customers/:id` - Get specific customer
+  - `POST /customers` - Add new customer
 
-## Contributing
+  - `Get /orders` - Get all orders and attached customers (might return no customr) 
+  - `POST /orders` - Create a new order with or without customer ID. 
 
-Contributions are welcome! Please fork the repository and use a feature branch. Pull requests are warmly welcome.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-- **Your Name** - [your.email@example.com](mailto:your.email@example.com)
-- **Project Link**: [https://github.com/yourusername/bookstore-api](https://github.com/yourusername/bookstore-api)
