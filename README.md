@@ -29,7 +29,7 @@ Demo for a very simple book store.
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/parvelmarv/bookStore.git
-   cd bookstore-api
+   cd bookstore
    ```
 
 2. **Install dependencies**:
