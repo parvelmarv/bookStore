@@ -77,7 +77,9 @@ Demo for a very simple book store.
 
 ### Accessing the Application
 
-- Open your browser and go to `http://localhost:5173` for the frontend.
+- Open your browser and go to `http://localhost:5173` for the frontend. [Works badly with night mode]
+- There are two pages to visit `http://localhost:5173` and `http://localhost:5173/stock` [Works badly with night mode]
+
 - The backend API is accessible at `http://localhost:3000`.
 - API endpoints:
   - `GET /books` - Browse books (with filtering, sorting, pagination)
