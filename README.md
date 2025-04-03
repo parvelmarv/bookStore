@@ -28,7 +28,7 @@ Demo for a very simple book store.
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/bookstore-api.git
+   git clone https://github.com/parvelmarv/bookStore.git
    cd bookstore-api
    ```
 
