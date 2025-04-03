@@ -20,7 +20,7 @@ async function getBook(req, res, next) {
     next();
 }
     
-// Enkel filtrering och sortering, samt pagination
+// Enkel filtrering och sortering, samt en enkelpagination
 router.get('/', async (req, res) => {
     const { author, releaseYear, title, sortBy, page = 1, limit = 10 } = req.query;
     const filter = {};
@@ -55,6 +55,7 @@ router.get('/', async (req, res) => {
     }
 });
 
+//Skapar en ny bok
 router.post('/', async (req, res) => {
     const { title, author, releaseYear, Quantity, InStock } = req.body;
     const book = new Book({ 
@@ -72,6 +73,7 @@ router.post('/', async (req, res) => {
     }
 });
 
+//Tar bort en bok
 router.delete('/:id', getBook, async (req, res) => {
     try {
         await res.book.remove();
